@@ -14,11 +14,14 @@ body {
 
 img {
     max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
 }
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
+    position: relative;
 }
 
 .header {
@@ -27,6 +30,10 @@ img {
     min-height: 70vh;
     display: flex;
     align-items: center;
+}
+
+section {
+    margin-bottom: 30px; /* Espacio entre las secciones reducido a 30px */
 }
 
 .menu {
@@ -209,6 +216,29 @@ form {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
+.contacto form {
+    border-radius: 25px; 
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+    border-radius: 25px; 
+    padding: 17px 15px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: 2px solid #02B1F4;
+    outline: none;
+    color: #FAFAFA;
+    font-size: 16px;
+}
+
+.contacto .btn {
+    border-radius: 25px; 
+}
+
+
 form h2 {
     font-size: 25px;
     color: #FAFAFA;
@@ -295,6 +325,80 @@ textarea {
     color: #02B1F4;
 }
 
+.destinos .destino {
+    margin-bottom: 50px;
+}
+
+.destinos .destino-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.destinos .destino-img {
+    flex: 1;
+}
+
+.destinos .destino-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.destinos .destino-txt {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.destinos .destino-txt h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.destinos .destino-txt p {
+    color: #555;
+    font-size: 16px;
+}
+
+.experiencias .experiencia {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.experiencias .experiencia-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.experiencias .experiencia-img {
+    flex: 1;
+}
+
+.experiencias .experiencia-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.experiencias .experiencia-txt {
+    flex: 1;
+    padding-left: 20px; 
+}
+
+.experiencias .experiencia-txt h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.experiencias .experiencia-txt p {
+    color: #555;
+    font-size: 16px;
+}
+
+
+
+
 @media (max-width:991px) {
     .menu {
         padding: 20px;
@@ -380,15 +484,19 @@ textarea {
     
 
     .formulario {
-        padding: 30px;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 100px;
+        margin-bottom: 100px; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
     }
 
     form {
-        width: 100%;
+        padding: 50px;
+        width: 500px;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     }
-
     .footer {
         padding: 30px;
     }

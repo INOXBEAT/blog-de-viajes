@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="menu container">
-            <input type="checkbox" id="menu"/>
+            <input type="checkbox" id="menu" />
             <label for="menu">
                 <img src="images/menu.png" class="menu-icono" alt="menu">
             </label>
@@ -23,7 +25,7 @@
                     <li><a href="#Contacto">Contacto</a></li>
                 </ul>
             </nav>
-        </div> 
+        </div>
         <div class="header-content container">
             <div class="header-txt">
                 <h1>¡Bienvenidos a nuestro Blog de Viajes!</h1>
@@ -40,29 +42,66 @@
 
     <section id="Destinos" class="destinos container">
         <h2>Destinos Populares</h2>
+        <br>
         <div class="destino">
-            <img src="images/destino1.png" alt="Destino 1">
-            <p>Descripción del destino 1...</p>
+            <div class="destino-content">
+                <div class="destino-img">
+                    <img src="images/destino1.png" alt="Destino 1">
+                </div>
+                <div class="destino-txt">
+                    <h3>Destino 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, veniam! Iure vel harum officiis, dolor animi ad omnis fugit sit vitae aspernatur rerum earum perferendis repudiandae eveniet magnam voluptatum nulla.</p>
+                </div>
+            </div>
         </div>
         <div class="destino">
-            <img src="images/destino2.png" alt="Destino 2">
-            <p>Descripción del destino 2...</p>
+            <div class="destino-content">
+                <div class="destino-img">
+                    <img src="images/destino2.png" alt="Destino 2">
+                </div>
+                <div class="destino-txt">
+                    <h3>Destino 2</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt dignissimos odio delectus omnis. Ab molestias accusamus facere illum sapiente rerum quasi eligendi non adipisci. Blanditiis rem earum ullam libero excepturi!</p>
+                </div>
+            </div>
         </div>
         <!-- Agrega más destinos según sea necesario -->
     </section>
 
+
     <section id="Experiencias" class="experiencias container">
         <h2>Experiencias de Viaje</h2>
+        <br>
         <div class="experiencia">
-            <img src="images/experiencia1.jpeg" alt="Experiencia 1">
-            <p>Relato de la experiencia 1...</p>
+            <div class="experiencia-content">
+                <div class="experiencia-img">
+                    <img src="images/experiencia1.jpeg" alt="Experiencia 1">
+                </div>
+                <div class="experiencia-txt">
+                    <h3>Experiencia 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam alias asperiores
+                        aliquid. Odio dignissimos quisquam, eaque error dolore repudiandae alias? Totam,
+                        quibusdam at. Nesciunt ea ipsam, architecto dolorum corrupti hic!</p>
+                </div>
+            </div>
         </div>
         <div class="experiencia">
-            <img src="images/experiencia2.jpeg" alt="Experiencia 2">
-            <p>Relato de la experiencia 2...</p>
+            <div class="experiencia-content">
+                <div class="experiencia-img">
+                    <img src="images/experiencia2.jpeg" alt="Experiencia 2">
+                </div>
+                <div class="experiencia-txt">
+                    <h3>Experiencia 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sint aut dicta a
+                        molestiae veritatis accusamus eaque? Itaque quae a, distinctio temporibus fugiat
+                        harum, amet soluta in sunt dolorum eligendi!</p>
+                </div>
+            </div>
         </div>
         <!-- Agrega más experiencias según sea necesario -->
     </section>
+
+    <br>
 
     <section id="Contacto" class="contacto container">
         <h2>Contacto</h2>
@@ -93,4 +132,5 @@
         </div>
     </footer>
 </body>
+
 </html>
