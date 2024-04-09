@@ -33,7 +33,10 @@
             <div class="header-txt">
                 <h1>¡Bienvenidos a nuestro Blog de Viajes!</h1>
                 <p>
-                    Explora el mundo con nosotros y descubre nuevos destinos, experiencias emocionantes y consejos útiles para tus próximas aventuras.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Enim repudiandae nulla commodi fuga tempore quam laborum aperiam. 
+                    Nulla nobis officia, corporis odio, fugiat harum quod quam hic 
+                    sunt asperiores enim.
                 </p>
                 <a href="#Destinos" class="btn-1">Explorar Destinos</a>
             </div>
